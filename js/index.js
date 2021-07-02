@@ -1,3 +1,7 @@
+var intervalId = window.setInterval(function() {
+    loaded()
+}, 500);
+
 function clicked() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "https://api.countapi.xyz/hit/starcakes-datapacks/kxffie");
